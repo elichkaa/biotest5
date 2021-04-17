@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+html {
+	background: rgb(89, 10, 102);
+	background: linear-gradient(
+		0deg,
+		rgba(89, 10, 102, 1) 0%,
+		rgba(23, 16, 105, 1) 85%
+	);
+}
+body {
+	color: white;
+	font-family: "Commissioner", sans-serif;
+	font-size: 20px;
+	margin-left: 3rem;
+	min-height: 100vh;
+}
+#title {
+	text-align: center;
+}
+h2 {
+	margin-left: 1rem;
+	margin-top: 3rem;
+}
+img {
+	height: 250px;
+	margin-left: 1rem;
+	margin-top: 0.5rem;
+}
+li.tochka {
+	margin-top: 2rem;
+}
+li {
+	margin-top: 0.45rem;
+}
+#image22 {
+	height: 100px;
+	width: 333px;
+	margin-left: 1rem;
+	margin-top: 0.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.big {
+	height: 700px;
+	width: 700px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.long {
+	height: 900px;
+	width: 600px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rectangle {
+	height: 525px;
+	width: 600px;
 }
 
-.App-link {
-  color: #61dafb;
+.schema {
+	height: 600px;
+	width: 900px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.middle {
+	height: 600px;
+	width: 800px;
+}
+
+#image39 {
+	height: 400px;
+	width: 723px;
+}
+
+.onetotwo {
+	height: 400px;
+	width: 800px;
+}
+table,
+th,
+td {
+	border: 1px solid white;
+	border-collapse: collapse;
+	padding: 10px;
+}
+th {
+	text-align: left;
+}
+table {
+	width: 70%;
+	margin-right: 15%;
 }
